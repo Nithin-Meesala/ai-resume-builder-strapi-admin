@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "user Resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "resumeid": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience.experience"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skills"
+    },
+    "themeColor": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
+    },
+    "linkedinusername": {
+      "type": "string"
+    },
+    "linkedinurl": {
+      "type": "string"
+    },
+    "githubusername": {
+      "type": "string"
+    },
+    "githuburl": {
+      "type": "string"
+    },
+    "showLinkedIn": {
+      "type": "boolean"
+    },
+    "showGitHub": {
+      "type": "boolean"
+    }
+  }
+}

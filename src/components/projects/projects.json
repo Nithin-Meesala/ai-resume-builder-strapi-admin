@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "projects",
+    "icon": "cast",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projectTitle": {
+      "type": "string"
+    },
+    "projectDescription": {
+      "type": "text"
+    }
+  }
+}
